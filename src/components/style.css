@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #56d6af;
+  color: #fff;
+}
+
+.dollarApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+h1,
+h2,
+p {
+  padding: 30px;
+}
+
+h1 {
+  text-shadow: -2px 0px 11px rgba(95, 87, 84, 0.66);
+}
+
+input[type="button"] {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+input[type="button"]:hover {
+  background-color: #389277bd;
+  color: #fff;
+}
+
+small {
+  font-size: 15px;
+  color: #333;
+}
+small.fonte {
+  margin: 20px;
+}
